@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Immersive Adventures",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Interactive Illustrations",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Educational Enhancement",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Author Insights",
     icon: creator,
   },
 ];
@@ -116,55 +116,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Immersive Adventures",
+
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " With the fusion of Mixed Reality (MR) and Augmented Reality (AR), the act of reading transforms into an immersive journey. The boundaries between reality and fiction dissolve as readers find themselves enveloped in rich 3D environments. Traditional storytelling is redefined, ushering in a new era where books transport readers to worlds that respond to their every move.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Interactive Illustrations",
+
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Augmented Reality (AR) infuses illustrations with life, rendering them dynamic and interactive. This captivating feature not only enthralls young readers but also serves as an invaluable aid in educational settings. Complex concepts come to life through interactive diagrams and visuals, enhancing comprehension and making learning a dynamic and engaging experience.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Educational Enhancement",
+
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Beyond the printed word, our platform enriches the learning process. It offers a wealth of supplementary content, including videos, maps, and quizzes, which are especially valuable in the context of historical and educational texts. These resources make intricate ideas accessible and encourage hands-on learning, fostering deeper understanding.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Author Insights",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Through our platform, readers forge meaningful connections with authors. Exclusive content, live Q&A sessions, and virtual book clubs offer unique glimpses into the creative minds behind the books. This fosters a sense of community and engagement, allowing readers to be part of the author's journey and making the reading experience more personal and enriching.",
     ],
   },
 ];
