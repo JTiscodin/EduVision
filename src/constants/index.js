@@ -15,24 +15,24 @@ import {
   git,
   figma,
   docker,
+  proto_1,
   meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  proto_2,
+  proto_3,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Overview",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Features",
   },
   {
     id: "contact",
@@ -153,92 +153,92 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Incorporating MR into my classroom has been a game-changer. It brings books to life and turns learning into a captivating journey. The ability to provide video explanations and interactive elements enhances comprehension and student engagement. MR books have transformed the way I teach and how students absorb information.",
+    name: "Abhilekh",
+    designation: "CSE MUJ'26",
+    company: "Manipal University Jaipur",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've always been a tech enthusiast, and MR books are the perfect fusion of technology and literature. They offer a fresh, dynamic reading experience that traditional books can't match. The 3D models, augmented reality elements, and multimedia content immerse me in the stories like never before. It's an exciting future for bookworms and tech geeks alike!",
+    name: "Suraj Kumar",
+    designation: "CSE MUJ'26",
+
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "I've been a book lover all my life, and MR books have rejuvenated my passion for reading. They bring a whole new dimension to the stories, making me feel like an active participant in each narrative. The blend of traditional reading with interactive 3D models and immersive elements is nothing short of magical. MR has given me a fresh perspective on my beloved books, and I couldn't be more thrilled!",
+    name: "Krishanu",
+    designation: "CSE MUJ'26",
+    // company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Enhancing the Reading Experience",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Our prototype brings the problem statement to life by seamlessly blending the physical and digital worlds. Explore how we're enriching the reading experience with immersive features",
     tags: [
       {
-        name: "react",
+        name: "SwiftUI",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "RealityKit",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ARKit",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: proto_1,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Bridging the Digital Divide",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Incorporating mixed reality, our prototype addresses the challenges faced by traditional publishers in the digital age. Discover how we're making books more engaging and accessible.",
     tags: [
       {
-        name: "react",
+        name: "VisionOS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: proto_2,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Empowering Education",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Our prototype goes beyond reading; it empowers education. See how we're integrating AR to enhance learning, comprehension, and student engagement.",
     tags: [
       {
-        name: "nextjs",
+        name: "SwiftUI",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "VisionOS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: proto_3,
     source_code_link: "https://github.com/",
   },
 ];

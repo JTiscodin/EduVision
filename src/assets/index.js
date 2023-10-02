@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import proto_1 from "./proto-1.jpg";
+import proto_2 from "./proto-2.jpg";
+import proto_3 from "./proto-3.jpg";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  proto_1,
+  proto_2,
+  proto_3
 };
